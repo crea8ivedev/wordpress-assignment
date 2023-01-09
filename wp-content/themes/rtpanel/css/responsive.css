@@ -1,0 +1,93 @@
+/* Responsive CSS */
+@media screen and (max-width: 1199px) {
+    .sidebar {
+        display: block;
+    }
+    .toggle-menu {
+        display: block;
+    }
+    .header__menu {
+        display: none; 
+    }
+    .header__search {
+        display: none; 
+    } 
+    .header-navbar {
+        display: none; 
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .header__logo a img, .footer__copyrights--logo a img {
+        max-width: 190px; 
+    }
+    .footer__copyrights--text {
+        margin-top: 25px;
+    }
+}
+@media screen and (max-width: 991px) {
+    .widget-grid__tweets, .widget-grid__facebook {
+        padding-bottom: 20px;  
+    } 
+    .column-part__inner .row > .col-lg-8 {
+        border: 0; 
+    } 
+    .news-box__sticky-post-inner {
+        flex-wrap: wrap; 
+        justify-content: space-between; 
+    } 
+    .news-box__sticky-post-image {
+        width: auto;
+    }
+    .news-box__date-time .display-time {
+        font-size: 36px; 
+        line-height: 46px;
+    }
+    .footer__copyrights {
+        padding: 20px 0;
+    }
+    .footer__navmenu--items {
+        padding: 10px 0;
+    }
+    .footer__top {
+        padding: 10px 0; 
+    }
+    .news-box__date-time .display-date {
+        font-size: 14px; 
+    }  
+    .gold-swiper__arrow img {
+        max-width: 12px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .hero-banner__slider--main .swiper-pagination-bullet {
+        width: 12px;
+        height: 12px;
+        border: 1px solid #e6c36e;  
+    }
+    .hero-banner__slider--main .swiper-pagination-bullet.swiper-pagination-bullet-active {
+        width: 12px;
+        height: 12px;
+        border: 1px solid #ffffff;
+    }
+    .column-part__inner .row > .col-lg-5 {
+        border: 0;
+    } 
+    .news-box__sticky-post-image, .news-box__sticky-post-details {
+        margin: 5px 0; 
+    }
+    .news-box__sticky-post-image {
+        margin-right: 10px; 
+    }
+}
+@media screen and (max-width: 575px) {
+    .header__logo a img, .footer__copyrights--logo a img {
+        max-width: 160px;  
+    }
+    .sidebar {
+        width: 270px; 
+    }
+    .partner-slider__image--inner {
+        text-align: center; 
+    }
+}
